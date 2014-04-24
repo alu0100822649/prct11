@@ -1,0 +1,5 @@
+\beamer@endinputifotherversion {3.10pt}
+\select@language {spanish}
+\beamer@sectionintoc {1}{Introducci\IeC {\'o}n}{5}{0}{1}
+\beamer@sectionintoc {2}{Historia del c\IeC {\'a}lculo del valor $\pi $}{6}{0}{2}
+\beamer@sectionintoc {3}{Bibliografia}{8}{0}{3}

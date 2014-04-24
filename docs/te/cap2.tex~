@@ -1,0 +1,8 @@
+ En \LaTeX{}~\cite{Lam:86} es sencillo escribir expresiones
+matem ́aticas como $a=\sum_{i=1}^{10} {x_i}^{3}$
+y deben ser escritas entre dos s ́ımbolos \$.
+Los super ́ındices se obtienen con el s ́ımbolo \^{}, y
+los sub ́ındices con el s ́ımbolo \_.
+Por ejemplo: $x^2 \times y^{\alpha + \beta}$.
+Tambi ́en se pueden escribir f ́ormulas centradas:
+\[h^2=a^2 + b^2 \]

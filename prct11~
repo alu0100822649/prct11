@@ -1,0 +1,58 @@
+\documentclass{beamer}
+\usepackage[spanish]{babel}
+\usepackage[utf8]{inputenc}
+\usepackage{graphicx}
+
+\title[Otro mensaje]{Práctica11}
+\author[El Máquina]{Yo}
+\date[xx/xx/xxxx]{24 de abril de 2014}
+
+\usetheme{Madrid}
+
+\definecolor{MiVioleta} {RGB}ç{22,59,122}
+\definecolor {MiAzul}{RGB}{0,88,147}
+\definecolor {MiGris}{RGB}{56,61,66}
+\setbeamercolor {palette primary}{use=structure, fg=white, bg=MiVioleta}
+\setbeamercolor {palette secundary}{{use=structure, fg=white, bg=MiAzul}
+\setbeamercolor {palette tertiary}{use=structure, fg=white, bg=MiGris}
+\begin{document}
+\begin{frame}
+\titlepage
+\end{frame}
+
+
+\begin{frame}
+\frametitle{Indice}
+\tableofcontents[pausesections]
+\end{frame}
+
+\section{Mi primera seccion}
+
+\begin{frame}
+\frametitle{Introduccion}
+texto Omaira Quintana Ramírez. Asignatura de Técincas Experimentales. Prueba de 
+introducir texto en latex.
+\end{frame}
+
+
+\section {Mi segunda seccion}
+
+\begin{frame}
+\frametitle{Ejemplos}
+Esto es otra prueba para ver como sale el texto en la transparencia.
+\begin{itemize}
+\item Ejemplo1    \pause
+\item Ejemplo2    \pause
+\item Ejemplo3    \pause
+\end{itemize}
+\end{frame}
+
+\begin{frame}
+\frametitle{Bibliografia}
+\begin{thebibliography}
+\bibitem [Guia docente, 2013]{guia}
+Guia Docente (2013).
+\end{thebibliography}
+\end{frame}
+
+\end{document}

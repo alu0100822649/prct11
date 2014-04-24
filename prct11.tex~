@@ -1,0 +1,97 @@
+\documentclass{beamer}
+\usepackage[spanish]{babel}
+\usepackage[utf8]{inputenc}
+\usepackage{graphicx}
+
+\title[Otro mensaje]{Práctica11}
+\author[El Máquina]{Omaira Quintana Ramírez}
+\institute {Fac. Mat.}
+\date[xx/xx/xxxx]{24 de abril de 2014}
+
+\usetheme{Madrid}
+
+\definecolor{MiVioleta} {RGB}{22,59,122}
+\definecolor {MiAzul}{RGB}{0,88,147}
+\definecolor {MiGris}{RGB}{56,61,66}
+\setbeamercolor* {palette primary}{use=structure, fg=white, bg=MiVioleta}
+\setbeamercolor* {palette secundary}{use=structure, fg=white, bg=MiAzul}
+\setbeamercolor* {palette tertiary}{use=structure, fg=white, bg=MiGris}
+
+\begin{document}
+\begin{frame}
+\titlepage
+\end{frame}
+
+
+\begin{frame}
+\frametitle{Indice}
+
+\tableofcontents[pausesections] % Cada vexz que clicamos da enter
+\end{frame}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\section {Introducción} 
+%PRIMERA TRANSPARENCIA
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\begin{frame}
+\frametitle{Introducción}
+\begin {block}{definición}
+$\pi$(pi) es la relación entre la longitud de una circunferencia y su diámetro, en geometría euclidiana. Es un número irracional y una de las constantes matemáticas más importantes. Se emplea frecuentemente en matemáticas, física e ingeniería. El valor numérico de $\pi$, truncado a sus primeras cifras, es el siguiente:3,14159265358979...
+
+
+Se le conoce también con el nombre de Número de Arquímedes, quien lo calculó con la aproximación de $3\frac{10}{71} < \pi < 3\frac{1}{7}$, tal como consignó en su obra "Medición del círculo", ciertamente con otra notación 4 .
+\end {block}
+\end {frame}
+
+
+%FINAL DE LA PRIMERA TRANSPARENCIA Y PRIMERA SECCIÓN
+
+
+
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\section {Historia del cálculo del valor $\pi$}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\begin{frame}
+  \frametitle{Historia de $\pi$}
+  \begin {block}{Mesopotamia}
+  Algunos matemáticos mesopotámicos empleaban, en el cálculo de segmentos, valores de $\pi$ igual a 3, alcanzando en algunos casos valores más aproximados, como el de:
+  $\pi = 3+\frac{1}{8} = 3,125$
+\end {block}
+
+  \begin {block}{Antiguedad Clásica}
+  El matemático griego Arquímedes (siglo III a. C.) fue capaz de determinar el valor de $\pi$ entre el intervalo comprendido por $3 \frac{10}{71}$, como valor mínimo, y $3 \frac{3}{7}$, como valor máximo. Con esta aproximación de Arquímedes se obtiene un valor con un error que oscila entre 0,024\% y 0,040\% sobre el valor real. El método usado por Arquímedes7 era muy simple y consistía en circunscribir e inscribir polígonos regulares de n-lados en circunferencias y calcular el perímetro de dichos polígonos. Arquímedes empezó con hexágonos circunscritos e inscritos, y fue doblando el número de lados hasta llegar a polígonos de 96 lados.
+
+Alrededor del año 20 d. C., el arquitecto e ingeniero romano Vitruvio calcula π como el valor fraccionario  $\frac{25}{8}$ midiendo la distancia recorrida en una revolución por una rueda de diámetro conocido.
+
+En el siglo II, Claudio Ptolomeo proporciona un valor fraccionario por aproximaciones:
+\begin{center} 
+$\pi= \frac {377}{120}$
+\end{center}
+\end {block}
+\end {frame}
+
+%  FINAL DE LA SEGUNDA TRANSPARENCIA
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\begin{frame}
+  \frametitle{Historia de $\pi$}
+  \begin {block}{Matemática China}
+  
+El cálculo de pi fue una atracción para los matemáticos expertos de todas las culturas. Hacia 120, el astrónomo chino Zhang Heng (78-139) fue uno de los primeros en usar la aproximación $\sqrt {10}$, que dedujo de la razón entre el volumen de un cubo y la respectiva esfera inscrita. Un siglo después, el astrónomo Wang Fang lo estimó en 142/45 (3,155555), aunque se desconoce el método empleado.8 Pocos años después, hacia 263, el matemático Liu Hui fue el primero en sugerir9 que 3,14 era una buena aproximación, usando un polígono de 9610 o 1928 lados. Posteriormente estimó $\pi$ como 3,14159 empleando un polígono de 3.072 lados.10 11
+
+A finales del siglo V, el matemático y astrónomo chino Zu Chongzhi calculó el valor de $\pi$ en 3,1415926, al que llamó «valor por defecto», y 3,1415927, «valor por exceso», y dio dos aproximaciones racionales de $\pi$, $\frac{22}{7} y $\frac{355}{113}, muy conocidas ambas,12 siendo la última aproximación tan buena y precisa que no fue igualada hasta más de nueve siglos después, en el siglo XV.10
+\end {block}
+\end {frame}
+%FINAL DE LA SECCIÓN 2 DE LA SEGUNDA TRANSPARENCIA
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\section {Bibliografia}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%TRANSPARENCIA ÚLTIMA
+
+\begin{frame}
+
+\end{frame}
+
+\end{document}
